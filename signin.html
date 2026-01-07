@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign In</title>
+</head>
+<body>
+    <main>
+        <div id="container">
+            <div id="dots"></div>
+        </div>
+        
+        <div class="container">
+            <div class="navi">
+                <div class="logo">
+                    <div></div>
+                </div>
+                <h2>Sign In</h2>
+                <div class="animation">
+                    <!-- <div class="creture"></div> -->
+                </div>
+            </div>
+            <div class="Form">
+                <form action="signin">
+                    <div>
+                        <input type="email" id="email" name="email" class="textinput" placeholder=" " autocapitalize="off" autocomplete="off" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div>
+                        <input type="password" id="password" name="password" class="textinput" placeholder=" " autocapitalize="off" autocomplete="off" required>
+                        <label for="password">Password</label>
+                    </div>
+                    <div>
+                        <a href="signup.html" class="createAccount">Create Account</a>
+                        <button type="submit" class="signin-btn">Sign In</button>
+                    </div>
+                </form>
+                <div class="forgotPassword">
+                    <div class="avator"></div>
+                    <div class="askPassword-left">
+                        <a href="http://">Forgot your password?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="progress-bar">
+            <div>
+                <div class="progress"></div>
+            </div>
+        </div> -->
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

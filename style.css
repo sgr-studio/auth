@@ -109,6 +109,7 @@ main {
     outline: none;
     font-size: 1rem;
     line-height: 1rem;
+    background: #fff;
 }
 
 .Form > form > div {
@@ -139,7 +140,7 @@ input:focus.textinput, input:not(:placeholder-shown).textinput {
     transform: translateY(22px) translateX(5px);
     transform-origin: left top;
     padding: 0 5px;
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 input:focus.textinput + label,
@@ -323,3 +324,4 @@ input:not(:placeholder-shown).textinput + label {
     padding-top: 20px;
 
 }
+

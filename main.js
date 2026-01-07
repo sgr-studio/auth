@@ -146,6 +146,8 @@ let resizeTimeout;
 window.addEventListener('resize', () => {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
-        location.reload();
+        // [Tip] 一時的に動作を停止します
+        // location.reload();
     }, 100);
+
 });
